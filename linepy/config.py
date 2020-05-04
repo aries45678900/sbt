@@ -44,10 +44,10 @@ class Config(object):
         'DEFAULT': '8.11.0'
     }
 
-    APP_TYPE    = 'CHROMEOS'
+    APP_TYPE    = 'DESKTOPWIN'
     APP_VER     = APP_VERSION[APP_TYPE] if APP_TYPE in APP_VERSION else APP_VERSION['DEFAULT']
     CARRIER     = '51089, 1-0'
-    SYSTEM_NAME = 'Mbah Google'
+    SYSTEM_NAME = 'RNBOTS'
     SYSTEM_VER  = '11.2.5'
     IP_ADDR     = '8.8.8.8'
     EMAIL_REGEX = re.compile(r"[^@]+@[^@]+\.[^@]+")
